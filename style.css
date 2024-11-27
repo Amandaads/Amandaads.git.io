@@ -1,0 +1,150 @@
+
+        /* todo o corpo do site vai ter essa cor e o gradiente estilizado pelo site css.gradient, com duas cores que gosto */
+        body{background: rgb(206,138,214);
+            background: linear-gradient(204deg, rgba(206,138,214,1) 22%, rgba(50,195,189,1) 98%);}
+        *{
+            font-family: serif;
+        }
+        .secaoContato{
+            padding: 40px;
+        }
+           
+        
+        .secaoHome{
+            display: flex;               
+            align-items: center;         
+            justify-content: flex-start; 
+            padding: 20px;
+            margin-top: 10%;
+            gap: 10px;
+            text-align: initial;
+        }
+        /* Todas as seções estão estilizadas assim, aprendi que se colocar o height desse tamanho ele irá ficar no tamanho certinho da div e não preciso me preocupar se um está maior ou menor que o outro */
+        section{
+            height: 100vh;
+            margin-bottom: 20px;
+        }
+        /* Estilo elipse da minha imagem  */
+        img{
+            border-radius: 50%;
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            display: block;
+            
+        }
+        /* aprendi o efeito de rolagem, sem precisar envolver o javaScript */
+        html{
+            scroll-behavior: smooth;
+        }
+        ul{
+            list-style-type: none;
+            margin:0;
+            padding: 0;
+            background-color:rgb(218, 222, 222);
+            display: flex;
+            justify-content: center;
+            border-radius: 13px;
+            
+        }
+        li{
+            margin: 0 15px;
+            position: relative;
+            display: inline-block;
+        }
+        li a{
+            display: block;
+            color: black;
+            padding: 10px 25px;
+            text-decoration: none;
+            font-family: sans-serif;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        /* Links quando o mouse passar em cima vão ter cor diferentes */
+        li a:hover{
+            background-color:aquamarine;
+            color: white;
+        }
+        .navBar{
+            border: 3px solid black;
+            position: fixed;
+            width: 58%;
+            text-align: center;
+            top: 3%;
+            left: 30%;
+            font-weight: bold;
+           border-radius: 16px;
+           font-size: 20px;
+        }
+        /* Estilizei o botão de envio do formulário */
+        .botaoEnviar{
+            height: 30px;
+            width: 100px;
+            padding: 8px;
+            border-radius: 10%;
+            font-weight: bold;
+            text-align: center;
+        }
+        .botaoEnviar:hover{
+            background-color: rgb(225, 44, 180);
+        }
+
+        /* container flex que foi ensinado durante a aula e aplicado na seção de projetos */
+        .flex-container {
+            display: flex;
+            height: 600px;
+            flex-wrap: wrap;
+            align-content: space-between;
+            gap:150px;
+            padding-left:5% ;
+
+          }
+          
+          /* flex container que ta dentro do div */
+          .flex-container > div {
+            background-color: antiquewhite;
+            width: 300px;
+            margin: 10px;
+            height:300px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+            padding: 10px;
+            border-radius: 10px ;
+          }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      color: blueviolet;
+    }
+    form {
+      width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      height: 360px;
+     
+      border-radius: 8px;
+      border: 1px solid black;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    th{
+        padding: 8px; font-size: 24px;
+    }
+    td{
+        padding: 8px;font-size: 18px;
+    }
+    
+    footer{
+        background-color: beige;
+        height: 30px;
+        text-align: center;
+        padding-top: 10px;
+    }
+ 

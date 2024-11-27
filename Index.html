@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Amanda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <--Amanda Dias -RU 4848296--> 
+    <div class="navBar">
+    <ul>
+        <li><a href="#Home">Inicio</a></li>
+        <li><a href="#Sobre mim">Sobre mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#Projetos">Projetos</a></li>
+        <li><a href="#Contato">Contato</a></li>
+    </ul>
+    </div>
+    <!-- Divido os links por seções e identificadas pelo id que são puxados pelos links da navbar -->
+    <section id="Home">
+        <div class="secaoHome">
+            <img src="Eu mesmo.jpeg" alt="Esta é uma foto minha">
+    
+        <div> 
+            <h1 style="display: inline;">Seja bem vindo a minha página!</h1>
+            <p style="font-size: 18px;">Ou melhor dizendo meu portfólio, aqui você encontra uma parte sobre mim, minha formação, meus projetos e como me contatar, fique a vontade!</p>
+        </div>
+        </div>
+    </section>
+
+
+    <section id="Sobre mim">
+        <h2>SOBRE MIM</h2>
+        <div style="  height: 500px; border: 1px solid black;  padding: 5%; border-radius: 20px;">
+            <p style="font-size: 30px; ">Sou Amanda, estudante de ánalise e desenvolvimento de sistemas, entrei no curso em 2024. Atualmente não trabalho na área de tecnologia, mas espero encontrar uma oportunidade. Estudo um pouco de cada área, tanto front-end, quanto back-end, fiz alguns projetos em front-end, encontro dificuldade no back-end. </p>
+            <br>
+            <p style="font-size: 30px">Gosto bastante de estar com minha família e me reunir com amigos, gosto bastante de ouvir música, o tempo todo o fone me acompanha e sou bem eclética. Meu animal favorito é o gato.</p>
+        </div>
+    </section>
+
+    <section id="formacao">
+        <h2>MINHA FORMAÇÃO</h2>
+        <br>
+        <br>
+        <div>
+            <table style="border: 1px solid black; height: 600px ;text-align: center; width: 100%; border-radius: 20px;">
+                <tr>
+                    <th >Cursos</th>
+                    <th>Situação</th>
+                    <th>Instituição</th>
+                </tr>
+                <tr>
+                    <td>Ánalise e Desenvolvimento de Sistemas</td>
+                    <td>em curso</td>
+                    <td>Uninter</td>
+                </tr>
+                <tr>
+                    <td>Formação front-end</td>
+                    <td>em curso</td>
+                    <td>Udemy</td>
+                </tr>
+                <tr>
+                    <td>Regulação da Preocupação e da ansiedade</td>
+                    <td>concluído</td>
+                    <td>Fundação Bradesco</td>
+                </tr>
+                <tr>
+                    <td>Atendimento ao público</td>
+                    <td>concluído</td>
+                    <td>Fundação Bradesco</td>
+                </tr>
+            </table>
+        </div>
+
+
+    </section>
+
+    <!-- Essa seção coloquei meus projetos, dois são da plataforma figma que está online e um está em um arquivo do meu computador, por isso links diferentes -->
+    <section id="Projetos">
+        <h2>MEUS PROJETOS</h2>
+    <div class="flex-container">
+        <div > <a href="https://www.figma.com/proto/q0tosqBtU7KSmyBQJXP0HB/Projeto--App-reciclagem?node-id=1-2&node-type=canvas&t=1FX1sJEmifJjNrvC-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" >Protótipo de aplicativo mobile para atividade extensionista-Figma</a></div>
+        <div><a href="https://www.figma.com/proto/d2xZ3nLjuFKtguq9YlN7bu/Trabalho-Whatsapp?node-id=1-2&starting-point-node-id=1%3A2&t=XBK5UCFIEJ12hxGc-1" target="_blank" >Protótipo do aplicativo mobile Whatsapp-Figma</a></div>
+        <div><a href="CofrinhoPOO.Trabalho (1).zip" target="_blank" >Cofre com Programação orientada a objetos</a>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Formulario para contato  -->
+    <section id="Contato">
+    <h2>ENTRE EM CONTATO COMIGO</h2>
+    <div class="secaoContato">
+    <form action="" method=""> 
+        <table style="font-size: 18px;"> 
+        <tr> 
+            <th><label for="nome">Nome:</label></th> 
+            <td><input type="text" name="nome" id="nome"></td> 
+        </tr> 
+        <tr> 
+            <th><label for="email">E-mail:</label></th> 
+            <td><input type="email" name="email" id="email"></td> 
+        </tr> 
+        <tr> 
+            <th><label for="msg">Assunto do contato:</label></th> 
+            <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem</textarea></td> 
+        </tr> 
+        <tr> 
+            <th><label for="msg">Me conte algo interessante:</label></th> 
+            <td><textarea name="msg" rows="5" cols="40">Digite aqui</textarea></td> 
+        </tr> 
+         <tr> 
+            <td></td> 
+            <td> <button class="botaoEnviar">Enviar</button></td>           
+        </tr>  
+    
+        </table> 
+        </form> 
+    </div>
+</section>
+
+<footer>Feito por Amanda Dias RU:4848296- (2024)</footer>
+</body>
+</html>
