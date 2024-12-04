@@ -1,0 +1,218 @@
+ html{
+    scroll-behavior: smooth;
+} 
+
+/* tudo por padrao é com essa definicao e mudado quando quero personalizar */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*todo o corpo ficara com a mesma cor */
+body{
+  background-color: rgb(236, 16, 170);
+  height: 100vh;
+}
+/* interface foi o padrao escolhido para se colocar nas seções maximo de largura 1280px */
+.interface{
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.flex{
+  display: flex;
+}
+
+h2.titulo{
+  color: white;
+  font-size: 36px;
+  text-align: center;
+}
+/* estilizacao topo/cabeca*/
+header{
+  padding: 50px 5%;
+}
+
+header a{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-decoration: none;
+}
+header a:hover{
+  color: rgb(195, 203, 215);
+
+}
+
+header nav ul{
+  list-style-type: none;
+}
+header nav ul li{
+  display: inline-block;
+  padding: 0px 40px;
+}
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* fim estilizacao topo/cabeca */
+
+
+/* estilo do topo/menu*/
+section.topo{
+  padding: 40px 4%;
+}
+section.topo.flex{
+  align-items: center;
+  justify-content: center;
+}
+
+.topo h1{
+  color: white;
+  font-size: 30px;
+  gap: 80px;
+
+}
+  .topo .txt-topo p{
+    color: white;
+    margin: 40px 0px;
+  }
+
+img{
+  height: auto;
+  width: 25%;
+}
+
+
+/* estilo especialidades */
+section.especialidades{
+  padding: 40px 4%;
+  
+
+}
+section.especialidades .flex{
+  gap: 50px;
+}
+.especialidades .especialidades-box{
+  padding: 40px;
+  border: 1px solid white;
+  margin-top: 25px;
+  border-radius: 4%;
+}
+
+.especialidades .especialidades-box img{
+  height: 50px;
+  width: 50px;
+
+}
+
+.especialidades .especialidades-box h3{
+  font-size: 25px;
+  color: rgb(70, 222, 236);
+  margin: 15px 0;
+}
+
+
+/* Estilos da seção sobre */
+section.sobre{
+  padding: 80px 4%;
+}
+
+.sobre h2{
+  padding: 30px;
+}
+section.sobre .flex{
+  align-items: center;
+  gap:40px;
+}
+.sobre .txt-sobre{
+  color: white;
+
+}
+
+.sobre .txt-sobre h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.sobre .txt-sobre p{
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: justify;
+}
+.sobre img{
+  border: 2px solid black;
+  height: 100%; width: 65%;
+}
+/*fim da estilação sobre*/
+
+
+/* estilo seção formação */
+section.formacao{
+  padding: 80px 4%;
+}
+
+/* estilo seção contato */
+section.contato{
+  padding: 80px 4%;
+}
+section.formacao .flex{
+  gap:40px;
+  padding: 30px;
+
+  
+}
+
+section.formacao .formacao-box{
+  border: 1px solid white;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  width: auto ;
+  height: auto;
+  padding: 15px ;
+
+}
+
+/* estilizacao da seção contatp */
+
+form{
+  padding: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+}
+/* usado dois itens juntos para se estilizar  */
+form input, textarea{
+  padding: 20px 15px;
+  border-radius: 5%;
+  font-size: 18px;
+
+}
+form textarea{
+  resize: none;
+  max-height: 200px;
+}
+form input::placeholder{
+  color: rgb(0, 0, 0);
+}
+
+form .btnEnviar{
+  margin: 18px;
+  text-align: center;
+ 
+}
+
+form .btnEnviar input{
+  width: 120px;
+}
+
+
+
+section.rodape{
+  background-color: beige;
+  text-align: center;
+  width: 100%;
+  padding: 10px 10px;
+}
